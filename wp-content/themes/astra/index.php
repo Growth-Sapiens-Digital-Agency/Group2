@@ -37,7 +37,7 @@ get_header(); ?>
 		?>
 	</div><!-- #primary -->
 <!-- Newsletter block -->
-	<div class="newletter-block">
+	<!-- <div class="newletter-block">
 <h2>Subscribe To Our Newsletter</h2>
 <p>Sign up here to get the latest news, updates and special offers delivered directly to your inbox.</p>
 <form>
@@ -50,13 +50,12 @@ get_header(); ?>
 				</div>
 			</div>
 </form>
-	</div>
+	</div> -->
 <?php 
 if ( astra_page_layout() == 'right-sidebar' ) :
 
 	get_sidebar();
 
 endif;
-
 
 get_footer();
