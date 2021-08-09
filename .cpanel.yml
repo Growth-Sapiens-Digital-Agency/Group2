@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/digintmedia/public_html/group23/
+    - /bin/cp * $DEPLOYPATH
+    

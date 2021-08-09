@@ -13,6 +13,8 @@
  * @since 1.0.0
  */
 
+
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
@@ -34,6 +36,21 @@ get_header(); ?>
 		astra_primary_content_bottom(); 
 		?>
 	</div><!-- #primary -->
+<!-- Newsletter block -->
+	<div class="newletter-block">
+<h2>Subscribe To Our Newsletter</h2>
+<p>Sign up here to get the latest news, updates and special offers delivered directly to your inbox.</p>
+<form>
+			<div class="two-col">
+				<div class="half-col lrg">
+					<input type="text" placeholder="Enter Your Email ID" required>
+				</div>
+				<div class="half-col">
+					<button type="submit">subscribe<button>
+				</div>
+			</div>
+</form>
+	</div>
 <?php 
 if ( astra_page_layout() == 'right-sidebar' ) :
 
