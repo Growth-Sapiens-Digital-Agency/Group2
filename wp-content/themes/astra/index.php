@@ -41,4 +41,22 @@ if ( astra_page_layout() == 'right-sidebar' ) :
 
 endif;
 
-get_footer();
+get_footer();?
+ <div class="tcontainer">
+        <div class="ticker-wrap1">
+            <div class="ticker-move">
+                <div class="ticker-item">For a limited time, get 30% off Morpheus 8. </div>
+                <div class="ticker-item">Call us to claim your offer   </div>
+                
+            </div>
+        </div>
+    </div>
+     <div class="tcontainer">
+        <div class="ticker-wrap2">
+            <div class="ticker-move">
+                <div class="ticker-item">20% off All Alumier products and fillers. Limited Period. </div>
+                <div class="ticker-item"> Call us on <a href="tel:289.337.2761">289.337.2761</a> to make a purchase</div>
+                
+            </div>
+        </div>
+    </div>
