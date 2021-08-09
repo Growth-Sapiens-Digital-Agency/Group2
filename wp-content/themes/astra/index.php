@@ -41,7 +41,7 @@ if ( astra_page_layout() == 'right-sidebar' ) :
 
 endif;
 
-get_footer();?
+get_footer();?>
  <div class="tcontainer">
         <div class="ticker-wrap1">
             <div class="ticker-move">
