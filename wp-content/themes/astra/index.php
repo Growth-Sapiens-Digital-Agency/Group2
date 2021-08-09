@@ -40,6 +40,7 @@ if ( astra_page_layout() == 'right-sidebar' ) :
 	get_sidebar();
 
 endif;
+?>
 <div class="footer-menu-section">
 <ul>
 <li><a href="#">Allergens & Colors</a></li>
@@ -51,4 +52,6 @@ endif;
 <li><a href="#">Accessibility for customers with a disability</a></li>
 </ul>
 </div>
+<?php
 get_footer();
+?>
