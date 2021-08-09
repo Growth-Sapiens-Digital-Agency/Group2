@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/digintmedia/public_html/stephen-git-auto/
+    - /bin/cp * $DEPLOYPATH
+    
