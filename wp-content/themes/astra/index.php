@@ -13,6 +13,8 @@
  * @since 1.0.0
  */
 
+
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
@@ -80,14 +82,39 @@ get_header(); ?>
 		astra_primary_content_bottom(); 
 		?>
 	</div><!-- #primary -->
+<!-- Newsletter block -->
+	<div class="newletter-block">
+<h2>Subscribe To Our Newsletter</h2>
+<p>Sign up here to get the latest news, updates and special offers delivered directly to your inbox.</p>
+<form>
+			<div class="two-col">
+				<div class="half-col lrg">
+					<input type="text" placeholder="Enter Your Email ID" required>
+				</div>
+				<div class="half-col">
+					<button type="submit">subscribe<button>
+				</div>
+			</div>
+</form>
+	</div>
 <?php 
 if ( astra_page_layout() == 'right-sidebar' ) :
 
 	get_sidebar();
 
 endif;
-
-get_footer();?>
+?>
+<div class="footer-menu-section">
+<ul>
+<li><a href="#">Allergens & Colors</a></li>
+<li><a href="#">Privacy Policy</a></li>
+<li><a href="#">Terms of Use</a></li>
+<li><a href="#">Return Policy</a></li>
+<li><a href="#">Contact Us</a></li>
+<li><a href="#">Accessibility Standards</a></li>
+<li><a href="#">Accessibility for customers with a disability</a></li>
+</ul>
+</div>
  <div class="tcontainer">
         <div class="ticker-wrap1">
             <div class="ticker-move">
@@ -106,3 +133,5 @@ get_footer();?>
             </div>
         </div>
     </div>
+get_footer();
+?>
