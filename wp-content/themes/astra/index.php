@@ -18,6 +18,52 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_header(); ?>
+<style>
+    .tcontainer {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .ticker-wrap1 {
+        width: 100%;
+        padding-left: 100%;
+        background-color: #6b6767;
+        color:#fff;
+        padding:10px;
+    }
+    .ticker-wrap2 {
+        width: 100%;
+        padding-left: 100%;
+        background-color: orange;
+        color:#fff;
+        padding:10px;
+    }
+    
+    @keyframes ticker {
+        100% {
+            transform: translate3d(-100%, 0, 0);
+        }
+    }
+    
+    .ticker-move {
+        display: inline-block;
+        white-space: nowrap;
+        padding-right: 100%;
+        animation-timing-function: linear;
+        animation: ticker 60s infinite;
+    }
+    
+    .ticker-move:hover {
+        animation-play-state: paused;
+    }
+    
+    .ticker-item {
+        display: inline-block;
+        padding: 0 40px;
+        font-size: 20px;
+    }
+</style>
+
 <?php if ( astra_page_layout() == 'left-sidebar' ) : ?>
 
 	<?php get_sidebar(); ?>
