@@ -115,6 +115,9 @@ endif;
 <li><a href="#">Accessibility for customers with a disability</a></li>
 </ul>
 </div>
+  <?php
+get_footer();
+?>
  <div class="tcontainer">
         <div class="ticker-wrap1">
             <div class="ticker-move">
@@ -133,6 +136,4 @@ endif;
             </div>
         </div>
     </div>
-    <?php
-get_footer();
-?>
+  
