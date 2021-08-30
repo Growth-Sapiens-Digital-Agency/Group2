@@ -16,6 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?>
 <?php astra_content_bottom(); ?>
+        
 	</div> <!-- ast-container -->
 	</div><!-- #content -->
 <?php 
@@ -26,7 +27,27 @@ if ( ! defined( 'ABSPATH' ) ) {
 	astra_footer();
 		
 	astra_footer_after(); 
+	
 ?>
+
+   <!-- Social media icons -->
+<div class="container">
+<div class="row" style="text-align:center">
+    <div class="col-sm-12" style="background-color:#EEEEEE;">
+    <div class="social-icon-container">
+<a href="#"><img  class="social_icons_image" src="assets/images/twitter.png" alt="Twitter Logo"> </a>
+             
+<a href="#"><img class="social_icons_image" src="assets/images/facebook.png" alt="Facebook Logo"> </a>
+<a href="#"><img class="social_icons_image" src="assets/images/youtube.png" alt="youtube Logo"> </a>
+<a href="#"><img class="social_icons_image" src="assets/images/linkidin.png" alt="linkedin logo"> </a>
+<a href="#"><img  class="social_icons_image" src="assets/images/google.png" alt="google logo"> </a>
+</div>
+    </div>
+	</div>	
+</div>
+
+<!-- Social media icons end -->
+   
 	</div><!-- #page -->
 <?php 
 	astra_body_bottom();    
