@@ -69,6 +69,7 @@ if (!defined('ABSPATH')) {
 	.newletter-block button {
 		width: 100%;
 		text-transform: uppercase;
+		border-radius: 0 !important;
 
 	}
 
