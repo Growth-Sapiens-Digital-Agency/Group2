@@ -51,6 +51,29 @@ if (!defined('ABSPATH')) {
 		height: 30;
 		width: 30px;
 	}
+
+	.newsletter-outer{
+		padding: 60px 0;
+		background: gray;
+		text-align: center;
+	}
+
+	.newletter-block{
+		width: 100%;
+		max-width: 600px;
+		margin: 0 auto;
+	}
+	.newletter-block input,.newletter-block button{
+		width: 100%;
+		text-transform: uppercase;
+		
+	}
+
+	.newletter-block h2,.newletter-block p{
+		color: white;
+	}
+
+	
 </style>
 <?php astra_content_bottom(); ?>
 
@@ -67,7 +90,7 @@ astra_footer_after();
 
 ?>
 <!-- Newsletter block | Stephen-->
-<div class="container">
+<div class="container newsletter-outer">
 	<div class="row">
 		<div class="col-md-12">
 			<div class="newletter-block">
