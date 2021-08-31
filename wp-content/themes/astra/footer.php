@@ -25,6 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	astra_footer_before();
 		
 	astra_footer();
+
 		
 	astra_footer_after(); 
 	
@@ -35,12 +36,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 <div class="row" style="text-align:center">
     <div class="col-sm-12" style="background-color:#EEEEEE;">
     <div class="social-icon-container">
-<a href="#"><img  class="social_icons_image" src="assets/images/twitter.png" alt="Twitter Logo"> </a>
-             
-<a href="#"><img class="social_icons_image" src="assets/images/facebook.png" alt="Facebook Logo"> </a>
-<a href="#"><img class="social_icons_image" src="assets/images/youtube.png" alt="youtube Logo"> </a>
-<a href="#"><img class="social_icons_image" src="assets/images/linkidin.png" alt="linkedin logo"> </a>
-<a href="#"><img  class="social_icons_image" src="assets/images/google.png" alt="google logo"> </a>
+<a href="#"><img style="width:30px;height:30px;" class="icon-images" src="wp-content/themes/astra/assets/images/twitter.png" alt="Twitter Logo"> </a>
+       
+<a href="#"><img style="width:30px;height:30px;" class="icon-images" src="wp-content/themes/astra/assets/images/facebook.png" alt="Facebook Logo"> </a>
+<a href="#"><img style="width:30px;height:30px;"  class="icon-images" src="wp-content/themes/astra/assets/images/youtube.png" alt="youtube Logo"> </a>
+<a href="#"><img style="width:30px;height:30px;"  class="icon-images" src="wp-content/themes/astra/assets/images/linkedin.png" alt="linkedin logo"> </a>
+<a href="#"><img  style="width:30px;height:30px;" class="icon-images" src="wp-content/themes/astra/assets/images/google.png" alt="google logo"> </a>
 </div>
     </div>
 	</div>	
