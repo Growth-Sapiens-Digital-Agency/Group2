@@ -52,28 +52,30 @@ if (!defined('ABSPATH')) {
 		width: 30px;
 	}
 
-	.newsletter-outer{
+	.newsletter-outer {
 		padding: 60px 0;
 		background: gray;
 		text-align: center;
 	}
 
-	.newletter-block{
+	.newletter-block {
 		width: 100%;
 		max-width: 600px;
 		margin: 0 auto;
+		padding: 0 15px;
 	}
-	.newletter-block input,.newletter-block button{
+
+	.newletter-block input,
+	.newletter-block button {
 		width: 100%;
 		text-transform: uppercase;
-		
+
 	}
 
-	.newletter-block h2,.newletter-block p{
+	.newletter-block h2,
+	.newletter-block p {
 		color: white;
 	}
-
-	
 </style>
 <?php astra_content_bottom(); ?>
 
@@ -99,7 +101,7 @@ astra_footer_after();
 				<form>
 					<div class="two-col">
 						<div class="half-col lrg">
-							<input type="text" placeholder="Enter Your Email ID" required>
+							<input type="email" placeholder="Enter Your Email ID" required>
 						</div>
 						<div class="half-col">
 							<button type="submit">subscribe<button>
