@@ -91,6 +91,25 @@ astra_footer();
 astra_footer_after();
 
 ?>
+<!-- Social media icons -->
+<div class="container">
+	<div class="row" style="text-align:center">
+		<div class="col-sm-12" style="background-color:#EEEEEE;">
+			<div class="social-icon-container">
+				<a href="#"><img style="width:30px;height:30px;" class="icon-images" src="wp-content/themes/astra/assets/images/twitter.png" alt="Twitter Logo"> </a>
+
+				<a href="#"><img style="width:30px;height:30px;" class="icon-images" src="wp-content/themes/astra/assets/images/facebook.png" alt="Facebook Logo"> </a>
+				<a href="#"><img style="width:30px;height:30px;" class="icon-images" src="wp-content/themes/astra/assets/images/youtube.png" alt="youtube Logo"> </a>
+				<a href="#"><img style="width:30px;height:30px;" class="icon-images" src="wp-content/themes/astra/assets/images/linkedin.png" alt="linkedin logo"> </a>
+				<a href="#"><img style="width:30px;height:30px;" class="icon-images" src="wp-content/themes/astra/assets/images/google.png" alt="google logo"> </a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Social media icons end -->
+
+
 <!-- Newsletter block | Stephen-->
 <div class="container newsletter-outer">
 	<div class="row">
@@ -113,23 +132,7 @@ astra_footer_after();
 	</div>
 </div>
 
-<!-- Social media icons -->
-<div class="container">
-<div class="row" style="text-align:center">
-    <div class="col-sm-12" style="background-color:#EEEEEE;">
-    <div class="social-icon-container">
-<a href="#"><img style="width:30px;height:30px;" class="icon-images" src="wp-content/themes/astra/assets/images/twitter.png" alt="Twitter Logo"> </a>
-       
-<a href="#"><img style="width:30px;height:30px;" class="icon-images" src="wp-content/themes/astra/assets/images/facebook.png" alt="Facebook Logo"> </a>
-<a href="#"><img style="width:30px;height:30px;"  class="icon-images" src="wp-content/themes/astra/assets/images/youtube.png" alt="youtube Logo"> </a>
-<a href="#"><img style="width:30px;height:30px;"  class="icon-images" src="wp-content/themes/astra/assets/images/linkedin.png" alt="linkedin logo"> </a>
-<a href="#"><img  style="width:30px;height:30px;" class="icon-images" src="wp-content/themes/astra/assets/images/google.png" alt="google logo"> </a>
-</div>
-    </div>
-	</div>	
-</div>
 
-<!-- Social media icons end -->
 
 </div><!-- #page -->
 <?php
