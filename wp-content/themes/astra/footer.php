@@ -104,7 +104,7 @@ astra_footer_after();
 							<input type="email" placeholder="Enter Your Email ID" required>
 						</div>
 						<div class="half-col">
-							<button type="submit">subscribe<button>
+							<button type="submit">subscribe</button>
 						</div>
 					</div>
 				</form>
