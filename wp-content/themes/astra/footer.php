@@ -81,6 +81,25 @@ if (!defined('ABSPATH')) {
 
 </div> <!-- ast-container -->
 </div><!-- #content -->
+
+<!--Footer Menu Section -->
+<section class="footer-menu-section">
+<div class="container">
+<div class="row">
+    <ul>
+        <li><a href="#">Allergens & Colors</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Return Policy</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Accessibility Standards</a></li>
+        <li><a href="#">Accessibility for customers with a disability</a></li>
+    </ul>
+	</div>
+</div>
+</section>
+<!--Footer Menu Section -->
+
 <?php
 astra_content_after();
 
