@@ -76,6 +76,19 @@ if (!defined('ABSPATH')) {
 	.newletter-block p {
 		color: white;
 	}
+	/*Keerthi*/
+	
+	.footer-menu-section ul {
+    list-style-type: none;
+    width: 68%;
+    margin: 0 auto;
+}
+.footer-menu-section ul li {
+    display: block;
+    width: auto;
+    float: left;
+    padding-right: 10px;
+}
 </style>
 <?php astra_content_bottom(); ?>
 
@@ -87,12 +100,12 @@ if (!defined('ABSPATH')) {
 <div class="container">
 <div class="row">
     <ul>
-        <li><a href="#">Allergens & Colors</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms of Use</a></li>
-        <li><a href="#">Return Policy</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Accessibility Standards</a></li>
+        <li><a href="#">Allergens & Colors  /</a></li>
+        <li><a href="#">Privacy Policy  /</a></li>
+        <li><a href="#">Terms of Use  /</a></li>
+        <li><a href="#">Return Policy  /</a></li>
+        <li><a href="#">Contact Us  /</a></li>
+        <li><a href="#">Accessibility Standards  /</a></li>
         <li><a href="#">Accessibility for customers with a disability</a></li>
     </ul>
 	</div>
