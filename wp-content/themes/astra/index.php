@@ -31,17 +31,16 @@ get_header(); ?>
         width: 100%;
         padding-left: 100%;
         background-color: #6b6767;color:#fff;
-        padding:5px;color: #fff;
-        padding: 10px;}
+        padding:5px;
+       }
 
     .ticker-wrap2 {
         width: 100%;
         padding-left: 100%; background-color: #ff6900;
         color:#fff;
-        padding:5px;background-color: orange;
+        padding:5px;
         color: #fff;
-        padding: 10px;
-
+        
     }
 
     @keyframes ticker {
