@@ -94,17 +94,7 @@ if (astra_page_layout() == 'right-sidebar') :
 
 endif;
 ?>
-<div class="footer-menu-section">
-    <ul>
-        <li><a href="#">Allergens & Colors</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Terms of Use</a></li>
-        <li><a href="#">Return Policy</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Accessibility Standards</a></li>
-        <li><a href="#">Accessibility for customers with a disability</a></li>
-    </ul>
-</div>
+
 <?php
 get_footer();
 ?>
