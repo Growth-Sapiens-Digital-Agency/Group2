@@ -80,7 +80,7 @@ if (!defined('ABSPATH')) {
 	
 	.footer-menu-section ul {
     list-style-type: none;
-    width: 68%;
+    width: 65%;
     margin: 0 auto;
 }
 .footer-menu-section ul li {
@@ -99,11 +99,16 @@ section.footer-menu-section {
 }
 .footer-menu-section ul li a {
     color: #fff;
+	padding-right: 7px;
+    font-size: 13px;
 }
 .footer-menu-section ul li:not(:last-child):after{
 	content: "/";
     color: #fff;
-    font-size: larger;
+    font-size: 20px;
+}
+.footer-menu-section ul li:last-child {
+    line-height: 42px;
 }
 </style>
 <?php astra_content_bottom(); ?>
