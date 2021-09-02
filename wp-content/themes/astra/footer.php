@@ -80,14 +80,14 @@ if (!defined('ABSPATH')) {
 	
 	.footer-menu-section ul {
     list-style-type: none;
-    width: 65%;
+    width: 63%;
     margin: 0 auto;
 }
 .footer-menu-section ul li {
     display: block;
     width: auto;
     float: left;
-    padding-right: 10px;
+    padding-right: 7px;
 }
 section.footer-menu-section {
     float: left;
@@ -99,7 +99,7 @@ section.footer-menu-section {
 }
 .footer-menu-section ul li a {
     color: #fff;
-	padding-right: 7px;
+	padding-right: 8px;
     font-size: 13px;
 }
 .footer-menu-section ul li:not(:last-child):after{
