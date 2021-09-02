@@ -100,6 +100,11 @@ section.footer-menu-section {
 .footer-menu-section ul li a {
     color: #fff;
 }
+.footer-menu-section ul li:not(:last-child):after{
+	content: "/";
+    color: #fff;
+    font-size: larger;
+}
 </style>
 <?php astra_content_bottom(); ?>
 
@@ -111,12 +116,12 @@ section.footer-menu-section {
 <div class="container">
 <div class="row">
     <ul>
-        <li><a href="#">Allergens & Colors  /</a></li>
-        <li><a href="#">Privacy Policy  /</a></li>
-        <li><a href="#">Terms of Use  /</a></li>
-        <li><a href="#">Return Policy  /</a></li>
-        <li><a href="#">Contact Us  /</a></li>
-        <li><a href="#">Accessibility Standards  /</a></li>
+        <li><a href="#">Allergens & Colors</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Use</a></li>
+        <li><a href="#">Return Policy</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Accessibility Standards</a></li>
         <li><a href="#">Accessibility for customers with a disability</a></li>
     </ul>
 	</div>
