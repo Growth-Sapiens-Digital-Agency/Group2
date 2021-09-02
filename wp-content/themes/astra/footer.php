@@ -120,7 +120,7 @@ section.footer-menu-section {
 <section class="footer-menu-section">
 <div class="container">
 <div class="row">
-    <ul>
+    <!--<ul>
         <li><a href="#">Allergens & Colors</a></li>
         <li><a href="#">Privacy Policy</a></li>
         <li><a href="#">Terms of Use</a></li>
@@ -128,7 +128,20 @@ section.footer-menu-section {
         <li><a href="#">Contact Us</a></li>
         <li><a href="#">Accessibility Standards</a></li>
         <li><a href="#">Accessibility for customers with a disability</a></li>
-    </ul>
+    </ul>-->
+	<?php
+                                if ( has_nav_menu( 'footer' ) ) {
+                            $foot = array(
+                                'theme_location' => 'footer',
+                                'container' => FALSE,
+                                'menu_class' => '',
+                                'echo' => true,
+                                'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s</ul>'
+                                
+                            );
+                            wp_nav_menu($foot);
+                                }
+                            ?> 
 	</div>
 </div>
 </section>
