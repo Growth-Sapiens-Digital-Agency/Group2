@@ -176,7 +176,7 @@ require_once ASTRA_THEME_DIR . 'inc/core/deprecated/deprecated-functions.php';
 register_nav_menus(
 			array(
 				
-				'footer'  => __( 'Footer menu', 'astra' ),
+				'footer'  => __( 'Footer', 'astra' ),
 				
 			)
 		);
