@@ -89,6 +89,17 @@ if (!defined('ABSPATH')) {
     float: left;
     padding-right: 10px;
 }
+section.footer-menu-section {
+    float: left;
+    width: 100%;
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: #000;
+}
+.footer-menu-section ul li a {
+    color: #fff;
+}
 </style>
 <?php astra_content_bottom(); ?>
 
